@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-dropdown": "^1.6.4",
+    "react-lines-ellipsis": "^0.14.1",
+    "react-scripts": "2.1.8",
+    "react-select": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
