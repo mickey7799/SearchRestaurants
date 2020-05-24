@@ -13,10 +13,11 @@ The purpose of this project was to get familiar with React and data fetching usi
 
 ### Getting Started
 
-Clone/download the repository on your local machine.
-Create a config.js file in components folder by going to [Yelp developer](https://www.yelp.com/developers/v3/manage_app) and get the API Key.
+- Clone/download the repository on your local machine.
 
-In config.js file write
+- Create a config.js file in components folder by going to [Yelp developer](https://www.yelp.com/developers/v3/manage_app) and get the API Key.
+
+- In config.js file write
 `export const apiKey = "YOUR_YELP_API_KEY";`
 
 ##### Install dependencies
