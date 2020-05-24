@@ -1,4 +1,5 @@
 # Search Restaurants
+### Demo Picture
 
 ![](/demo.png)
 
@@ -13,7 +14,9 @@ The purpose of this project was to get familiar with React and data fetching usi
 ### Getting Started
 
 Clone/download the repository on your local machine.
-Create a config.js file in components folder by going to ![Yelp developer]https://www.yelp.com/developers/v3/manage_app and get the API Key. In config.js file write
+Create a config.js file in components folder by going to [Yelp developer](https://www.yelp.com/developers/v3/manage_app) and get the API Key.
+
+In config.js file write
 `export const apiKey = "YOUR_YELP_API_KEY";`
 
 ##### Install dependencies
@@ -29,5 +32,5 @@ Create a config.js file in components folder by going to ![Yelp developer]https:
 
 **1. Responsive Design.**
 
-**2. Search functionality added to search restaurants from API calls.**
+**2. Search functionality for restaurants based on dropdown options and data fetched from API calls.**
 
