@@ -1,5 +1,5 @@
 # Search Restaurants
-### Demo Picture
+### Demo View
 
 ![](/demo.png)
 
