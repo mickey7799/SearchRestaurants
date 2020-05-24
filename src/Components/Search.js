@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import 'react-dropdown/style.css';
 import Select, { components } from 'react-select';
 
-import { NONAME } from 'dns';
-
 
 const options = [
     { value: 'Abbotsford', label: 'Abbotsford' },
@@ -97,14 +95,13 @@ const DropdownIndicator = props => {
     return (
       components.DropdownIndicator && (
         <components.DropdownIndicator {...props}>
-         <img src="https://uploads-ssl.webflow.com/5c68aa0a46b367677ef35fd6/5c7dbdaa10414d6de34e7361_HFG-Search-Icon.png" width="540" srcSet="https://uploads-ssl.webflow.com/5c68aa0a46b367677ef35fd6/5c7dbdaa10414d6de34e7361_HFG-Search-Icon-p-500.png 500w, https://uploads-ssl.webflow.com/5c68aa0a46b367677ef35fd6/5c7dbdaa10414d6de34e7361_HFG-Search-Icon-p-800.png 800w, https://uploads-ssl.webflow.com/5c68aa0a46b367677ef35fd6/5c7dbdaa10414d6de34e7361_HFG-Search-Icon.png 1080w" sizes="30px" data-w-id="423b74c0-ca9d-45a3-f26d-ba504766731e" alt="" className="image"/>              
+         <img src="/images/search.svg" width="540"  alt="" className="image"/>              
         </components.DropdownIndicator>
       )
     );
 };
 
 const Option = (props) => {
-    console.log(props)
     return (
         components.Option && (
         <components.Option {...props}>
@@ -133,10 +130,11 @@ export default class Search extends Component {
         
     render(){
         const placeHolderValue = typeof this.state.selected === 'string' ? this.state.selected : this.state.selected.label;
-                 
+        const { selectedOption } = this.state;    
         return(
             <div className="search-div">
                 <Select 
+                    value={selectedOption}
                     menuShouldScrollIntoView={false}
                     styles={customStyles}
                     options={options} 

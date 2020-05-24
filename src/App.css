@@ -64,7 +64,7 @@
 }
 
 .w-nav-brand {
-  height: 100%;
+  height: 70%;
   display: flex;
   align-items: center;
   position: relative;
@@ -408,7 +408,7 @@ img {
 
 .comment {
   display: block;
-  height: 3.5em;
+  height: 6em;
   margin-right: 15px;
   margin-bottom: 15px;
   margin-left: 15px;

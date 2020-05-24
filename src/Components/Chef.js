@@ -4,7 +4,7 @@ import LinesEllipsis from 'react-lines-ellipsis';
 export default class Chef extends Component {
 
     render(){
-        const { profileUrl, name, comment, url, className, website, venue } = this.props;
+        const { profileUrl, name, url, venue, rating, review_count, categories  } = this.props;
         
 
         return (
@@ -12,34 +12,30 @@ export default class Chef extends Component {
             
                 <div className="expert-card">
                     <div className="expert-wrapper">                   
-                        <div className="profile-pic" style={{ backgroundImage: `url("${profileUrl || 'https://imageproxy.staging.hfg.clients.pipelabs.com.au/128x128/https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png' }")`}} />                    
+                        <div className="profile-pic" style={{ backgroundImage: `url("${profileUrl}")`}} />                    
                         <div className="expert-info-card">
                             <div className="expert-info name">
                             <strong className="bold-text">{name}</strong>
                             </div>
                             <div className="expert-info">
-                            Head Chef of  
-                            <span className="venue text-span-2"> Hood Food Guide </span>
+                            Food expert of
+                            <span className="venue text-span-2"> {categories[0].title} </span>
                             </div>
                         </div>
 
                     </div>
                     <div className="recommendation-wrapper">
-                        <div className="recommended-venue">recommends 
-                        <span className="recommended-name text-span-3"> {venue}</span>
-                        </div>
+                        
                         <div className="comment">
                         <LinesEllipsis
-                        text= {comment}
+                        text= {'This fantastic restaurant is a '+ categories[0].title +' restaurant! It received ' + review_count + ' reviews and got a rating of '+rating + ". Come and try it!"}
                         maxLine='3'
                         ellipsis='...'
                         trimRight
                         
                         />
                         </div>
-                        {/* <p className="comment">
-                            "{comment}"
-                        </p>  */}
+                        
                        
                         
                         <div className="food-image" style={{ backgroundImage: `url("${url  }")`}} />                    
