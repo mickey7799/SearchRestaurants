@@ -7,9 +7,9 @@ export default class Footer extends Component{
             <div id="Footer" className="footer">
                 <div className="footer-container w-container">
                     <div className="footer-wrapper-top">
-                        <a href="/" className="hood-food-guide-link w-inline-block w--current">
-                            <img src="/images/cupcake.svg" width="160" height="44" alt="" className="hood-food-guide-logo"/>
-                            <img src="/images/cupcake.svg" alt="app" className="hood-food-guide-logo mobile" width="37" height="40"/>
+                        <a href="/" className="w-inline-block w--current">
+                            <img src="/images/cupcake.svg" width="160" height="44" alt="" className="cake-logo"/>
+                            
                              
                         </a>
                         <a href="mailto:hic.ch.ntu@gmail.com" className="link">Contact</a>
