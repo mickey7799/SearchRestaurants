@@ -42,7 +42,7 @@ const customStyles = {
         zIndex: 1,
         marginTop: 25,
         marginBottom: 0,
-        color: 'hsla(48.23529411764706, 100.00%, 50.00%, 1.00)',
+        color: '#FA8072',
         fontFamily: 'Inter, sans-serif',
         fontWeight: 700,
         textDecoration: 'underline',
