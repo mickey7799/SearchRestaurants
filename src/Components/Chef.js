@@ -18,7 +18,7 @@ export default class Chef extends Component {
                             <strong className="bold-text">{name}</strong>
                         </div>
                         <div className="expert-info">
-                            Food expert of
+                            <div>Food expert of</div>
                             <span className="venue text-span-2"> {categories[0].title} </span>
                         </div>
                     </div>
@@ -32,7 +32,6 @@ export default class Chef extends Component {
                             maxLine='3'
                             ellipsis='...'
                             trimRight
-
                         />
                     </div>
 
