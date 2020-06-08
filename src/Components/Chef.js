@@ -12,7 +12,7 @@ export default class Chef extends Component {
 
             <div className="expert-card">
                 <div className="expert-wrapper">
-                    <div className="profile-pic" style={{ backgroundImage: `url("/images/child.svg")` }} />
+                    <div className="profile-pic" style={{ backgroundImage: `url("images/child.svg")` }} />
                     <div className="expert-info-card">
                         <div className="expert-info name">
                             <strong className="bold-text">{name}</strong>
