@@ -106,7 +106,7 @@ const Option = (props) => {
         components.Option && (
         <components.Option {...props}>
         
-        <img src="/images/icon_map_marker@3x.png" className="image-option" sizes="15px"/>
+        <img src="/images/icon_map_marker@3x.png" alt="alt_img" className="image-option" sizes="15px"/>
         <div className="text-option-container">
             <span className="text-option1">{props.data.label}<br/><span className="text-option2">Location</span></span>
             

@@ -14,7 +14,7 @@ export default class Footer extends Component {
                         </a>
                         <a href="mailto:hic.ch.ntu@gmail.com" className="link">Contact</a>
                         <a href="https://www.instagram.com/yelp/?hl=en" target="_blank" rel="noopener noreferrer" className="Footer__InstagramLink-sc-1mb098p-0 bBdLAF">
-                            <img src="images/instagram.svg" />
+                            <img src="images/instagram.svg" alt="alt_img"/>
                         </a>
                         <div className="text-block">© 2020 Vickey Lee</div>
                     </div>

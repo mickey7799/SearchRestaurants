@@ -29,7 +29,7 @@ export default class App extends Component {
         console.log(chef)
         this.setState({chef: chef.businesses});
         
-    }) .catch((err) => {
+    }).catch((err) => {
       console.log ('error')
     })
   }
