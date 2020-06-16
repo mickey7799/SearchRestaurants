@@ -4,7 +4,8 @@ import LinesEllipsis from 'react-lines-ellipsis';
 export default class Chef extends Component {
 
     render() {
-        const { name, url, rating, review_count, categories } = this.props;
+        const { name, url, rating, review_count, categories, profile } = this.props;
+        console.log(profile);
 
 
         return (
@@ -12,7 +13,7 @@ export default class Chef extends Component {
 
             <div className="expert-card">
                 <div className="expert-wrapper">
-                    <div className="profile-pic" style={{ backgroundImage: `url("images/child.svg")` }} />
+                    <div className="profile-pic" style={{ backgroundImage: `url("images/${profile}")` }} />
                     <div className="expert-info-card">
                         <div className="expert-info name">
                             <strong className="bold-text">{name}</strong>
