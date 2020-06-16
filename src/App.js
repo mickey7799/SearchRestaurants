@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-import { apiKey } from "./Components/config";
+//import { apiKey } from "./Components/config";
 import Header from './Components/Header';
 import Form from './Components/Form';
 import Footer from './Components/Footer';
@@ -10,7 +10,7 @@ import Filter from './Components/Filter';
 const options = [
   'Abbotsford', 'Carlton', 'Collingwood', 'Fitzroy', 'Melbourne CBD', 'Northcote', 'Preston', 'Richmond', 'South Melbourne', 'South Yarra', 'etc'
 ];
-//const apiKey = process.env.REACT_APP_AUTH_TOKEN;
+const apiKey = process.env.REACT_APP_AUTH_TOKEN;
 
 export default class App extends Component {
 
