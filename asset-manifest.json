@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/SearchRestaurants/static/css/main.6f9cc9d8.chunk.css",
-    "main.js": "/SearchRestaurants/static/js/main.e2330d27.chunk.js",
-    "main.js.map": "/SearchRestaurants/static/js/main.e2330d27.chunk.js.map",
+    "main.js": "/SearchRestaurants/static/js/main.d42788b7.chunk.js",
+    "main.js.map": "/SearchRestaurants/static/js/main.d42788b7.chunk.js.map",
     "runtime-main.js": "/SearchRestaurants/static/js/runtime-main.7e7c307c.js",
     "runtime-main.js.map": "/SearchRestaurants/static/js/runtime-main.7e7c307c.js.map",
     "static/css/2.ee241de9.chunk.css": "/SearchRestaurants/static/css/2.ee241de9.chunk.css",
-    "static/js/2.e26aeb10.chunk.js": "/SearchRestaurants/static/js/2.e26aeb10.chunk.js",
-    "static/js/2.e26aeb10.chunk.js.map": "/SearchRestaurants/static/js/2.e26aeb10.chunk.js.map",
+    "static/js/2.db37b3eb.chunk.js": "/SearchRestaurants/static/js/2.db37b3eb.chunk.js",
+    "static/js/2.db37b3eb.chunk.js.map": "/SearchRestaurants/static/js/2.db37b3eb.chunk.js.map",
     "index.html": "/SearchRestaurants/index.html",
-    "precache-manifest.781d99c10112865618c63c5582e7a54e.js": "/SearchRestaurants/precache-manifest.781d99c10112865618c63c5582e7a54e.js",
+    "precache-manifest.9cb9f4629ea5b966547655a762159fef.js": "/SearchRestaurants/precache-manifest.9cb9f4629ea5b966547655a762159fef.js",
     "service-worker.js": "/SearchRestaurants/service-worker.js",
     "static/css/2.ee241de9.chunk.css.map": "/SearchRestaurants/static/css/2.ee241de9.chunk.css.map",
     "static/css/main.6f9cc9d8.chunk.css.map": "/SearchRestaurants/static/css/main.6f9cc9d8.chunk.css.map",
-    "static/js/2.e26aeb10.chunk.js.LICENSE.txt": "/SearchRestaurants/static/js/2.e26aeb10.chunk.js.LICENSE.txt"
+    "static/js/2.db37b3eb.chunk.js.LICENSE.txt": "/SearchRestaurants/static/js/2.db37b3eb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e7c307c.js",
     "static/css/2.ee241de9.chunk.css",
-    "static/js/2.e26aeb10.chunk.js",
+    "static/js/2.db37b3eb.chunk.js",
     "static/css/main.6f9cc9d8.chunk.css",
-    "static/js/main.e2330d27.chunk.js"
+    "static/js/main.d42788b7.chunk.js"
   ]
 }

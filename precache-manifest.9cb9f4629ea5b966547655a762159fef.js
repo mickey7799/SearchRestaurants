@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16b49c5f84f7b11fbafc3cec5e9007d3",
+    "revision": "d7e7a894eccf0a18f2c9f881a2d6ff04",
     "url": "/SearchRestaurants/index.html"
   },
   {
-    "revision": "f56251a7bc152e47f1d3",
+    "revision": "d486973a4ec1ef6c8b45",
     "url": "/SearchRestaurants/static/css/2.ee241de9.chunk.css"
   },
   {
-    "revision": "e275cecd34d73692ec9d",
+    "revision": "5dfe1449f05c1beb3d05",
     "url": "/SearchRestaurants/static/css/main.6f9cc9d8.chunk.css"
   },
   {
-    "revision": "f56251a7bc152e47f1d3",
-    "url": "/SearchRestaurants/static/js/2.e26aeb10.chunk.js"
+    "revision": "d486973a4ec1ef6c8b45",
+    "url": "/SearchRestaurants/static/js/2.db37b3eb.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/SearchRestaurants/static/js/2.e26aeb10.chunk.js.LICENSE.txt"
+    "url": "/SearchRestaurants/static/js/2.db37b3eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e275cecd34d73692ec9d",
-    "url": "/SearchRestaurants/static/js/main.e2330d27.chunk.js"
+    "revision": "5dfe1449f05c1beb3d05",
+    "url": "/SearchRestaurants/static/js/main.d42788b7.chunk.js"
   },
   {
     "revision": "558cd6d7cf63ff95c5e6",
